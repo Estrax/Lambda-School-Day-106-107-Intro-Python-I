@@ -47,6 +47,7 @@ waypoints.append({
 for elem in waypoints:
     if(elem["name"] == "a place"):
         elem["lon"] = -130
+        elem["name"] = "not a real place"
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
